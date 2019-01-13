@@ -113,3 +113,6 @@ EOF
             cron_job_check=$(crontab -l | grep 'md_cron')
             [[ -n "$cron_job_check" ]] && echo "         - new crontab entry added" || echo "         - failed to add new crontab entry"
         fi
+	
+
+	#i don't know how to check this please help
